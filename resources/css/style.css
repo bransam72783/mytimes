@@ -42,4 +42,33 @@
 			padding:10px;
 			color: black;
 	}
+		body p{
+			border: 1px solid black;
+		}
 		
+		.content {
+			display: flex;
+			margin-top: 40px;
+			justify-content: space-between;
+		}
+
+		.leftbox {
+			display: flex;
+			flex-direction: column;
+			border: 1px solid black;
+			width: 45%;
+		}
+
+		.middlebox {
+			display: flex;
+			flex-direction: column;
+			border: 1px solid black;
+			width: 30%;
+		}
+
+		.rightbox {
+			display: flex;
+			flex-direction: column;
+			border: 1px solid black;
+			width: 20%;
+		}
